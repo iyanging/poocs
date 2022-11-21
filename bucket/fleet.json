@@ -27,8 +27,8 @@
     },
     "checkver": {
         "url": "https://data.services.jetbrains.com/products/releases?code=FL&latest=true&type=preview",
-        "regex": "version\":\"(?<ver>[\\d.]+)\".*\"build\":\"(?<build>[\\d.]+)\"",
-        "replace": "${ver}-${build}"
+        "regex": "version\":\"(?<ver>[\\d.]+)\"",
+        "replace": "${ver}"
     },
     "autoupdate": {
         "url": "https://download.jetbrains.com/fleet/installers/windows_x64/Fleet-$version.zip",

@@ -1,13 +1,13 @@
 {
-    "version": "1.17.84",
+    "version": "1.18.88",
     "description": "Next-generation IDE by JetBrains",
     "homepage": "https://www.jetbrains.com/fleet/",
     "license": {
         "identifier": "Apache-2.0",
         "url": "https://sales.jetbrains.com/hc/en-gb/articles/115001015290-Where-can-I-find-the-EULA-End-User-License-Agreement-"
     },
-    "url": "https://download.jetbrains.com/fleet/installers/windows_x64/Fleet-1.17.84.zip",
-    "hash": "05faa7af3c103fcdefd96b3d971216cc64fdf54cee0a6da167138fb16fc72f54",
+    "url": "https://download.jetbrains.com/fleet/installers/windows_x64/Fleet-1.18.88.zip",
+    "hash": "c5929aa831420619479e0b077565af8ab18aa1fbef400f3e3a17668f50652fa1",
     "extract_to": "IDE",
     "architecture": {
         "64bit": {

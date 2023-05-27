@@ -1,0 +1,67 @@
+{
+    "version": "1.69.0",
+    "description": "A language empowering everyone to build reliable and efficient software. (GNU toolchain)",
+    "homepage": "https://www.rust-lang.org",
+    "license": "MIT|Apache-2.0",
+    "notes": "Use the rustup package instead for easier management of multiple toolchains, including beta/nightly releases.",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://static.rust-lang.org/dist/rust-1.69.0-x86_64-pc-windows-gnu.msi",
+                "https://static.rust-lang.org/dist/rust-src-1.69.0.tar.gz",
+                "https://static.rust-lang.org/dist/rustfmt-1.69.0-x86_64-pc-windows-gnu.tar.gz",
+                "https://static.rust-lang.org/dist/clippy-1.69.0-x86_64-pc-windows-gnu.tar.gz",
+                "https://static.rust-lang.org/dist/rust-analyzer-1.69.0-x86_64-pc-windows-gnu.tar.gz"
+            ],
+            "hash": [
+                "8d479c03c71cb435e149b065aef192eef589bd46ad861d125587dd037a6a28b8",
+                "3cb12c47250fb9bd1d87e9f60a6247403eb3fc17c6fc226a95c2d298824ee5fd",
+                "16eeddeb3068b9cabdc416a605e94409636e3a78c54348e1530f0767ed2b5c59",
+                "d1cefe3c111a54db18cdcc4d47d7cfa95e4a40e7dfe47a88f0496eba8a092ab9",
+                "8ec5a5284c9b70252c1351ba6d076fbd2b33a86df1cc9fb481cb14be4827096c"
+            ],
+            "extract_dir": [
+                "Rust",
+                "rust-src-1.69.0\\rust-src",
+                "rustfmt-1.69.0-x86_64-pc-windows-gnu\\rustfmt-preview",
+                "clippy-1.69.0-x86_64-pc-windows-gnu\\clippy-preview",
+                "rust-analyzer-1.69.0-x86_64-pc-windows-gnu\\rust-analyzer-preview"
+            ]
+        }
+    },
+    "bin": [
+        "bin\\rustc.exe",
+        "bin\\rustdoc.exe",
+        "bin\\cargo.exe",
+        "bin\\rustfmt.exe",
+        "bin\\cargo-clippy.exe",
+        "bin\\rust-analyzer.exe"
+    ],
+    "checkver": {
+        "url": "https://www.rust-lang.org/",
+        "regex": "Version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://static.rust-lang.org/dist/rust-$version-x86_64-pc-windows-gnu.msi",
+                    "https://static.rust-lang.org/dist/rust-src-$version.tar.gz",
+                    "https://static.rust-lang.org/dist/rustfmt-$version-x86_64-pc-windows-gnu.tar.gz",
+                    "https://static.rust-lang.org/dist/clippy-$version-x86_64-pc-windows-gnu.tar.gz",
+                    "https://static.rust-lang.org/dist/rust-analyzer-$version-x86_64-pc-windows-gnu.tar.gz"
+                ],
+                "extract_dir": [
+                    "Rust",
+                    "rust-src-$version\\rust-src",
+                    "rustfmt-$version-x86_64-pc-windows-gnu\\rustfmt-preview",
+                    "clippy-$version-x86_64-pc-windows-gnu\\clippy-preview",
+                    "rust-analyzer-$version-x86_64-pc-windows-gnu\\rust-analyzer"
+                ]
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

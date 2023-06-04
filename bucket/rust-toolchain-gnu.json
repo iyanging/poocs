@@ -56,7 +56,7 @@
                     "rust-src-$version\\rust-src",
                     "rustfmt-$version-x86_64-pc-windows-gnu\\rustfmt-preview",
                     "clippy-$version-x86_64-pc-windows-gnu\\clippy-preview",
-                    "rust-analyzer-$version-x86_64-pc-windows-gnu\\rust-analyzer"
+                    "rust-analyzer-$version-x86_64-pc-windows-gnu\\rust-analyzer-preview"
                 ]
             }
         },

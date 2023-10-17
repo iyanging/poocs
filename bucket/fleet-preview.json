@@ -3,8 +3,8 @@
     "description": "Next-generation IDE by JetBrains",
     "homepage": "https://www.jetbrains.com/fleet/",
     "license": {
-        "identifier": "Apache-2.0",
-        "url": "https://sales.jetbrains.com/hc/en-gb/articles/115001015290-Where-can-I-find-the-EULA-End-User-License-Agreement-"
+        "identifier": "Proprietary",
+        "url": "https://www.jetbrains.com/store/license.html"
     },
     "url": "https://download.jetbrains.com/fleet/installers/windows_x64/Fleet-1.24.137.zip",
     "hash": "833e9936b60d21303a0a9a1495909fb5a80429b6af0a33e5ed6092a5cc9d5d3c",
@@ -20,7 +20,7 @@
             "shortcuts": [
                 [
                     "IDE\\fleet.exe",
-                    "JetBrains\\Fleet"
+                    "JetBrains\\Fleet Preview"
                 ]
             ]
         }

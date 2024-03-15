@@ -2,9 +2,9 @@
     "version": "0.14.20",
     "description": "Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.",
     "homepage": "https://hiddify.com",
-    "license": "Attribution-NonCommercial-ShareAlike 4.0 International",
+    "license": "CC-BY-NC-SA-4.0",
     "url": "https://github.com/hiddify/hiddify-next/releases/download/v0.14.20/hiddify-windows-x64-portable.zip",
-    "hash": "SHA256:A8D8E0875A9992EE39C1FC4F99D6CE4CF602549C984D45A5D9A4AD81ECF8D8E7",
+    "hash": "sha256:A8D8E0875A9992EE39C1FC4F99D6CE4CF602549C984D45A5D9A4AD81ECF8D8E7",
     "extract_dir": "hiddify-next",
     "bin": "HiddifyNext.exe",
     "shortcuts": [

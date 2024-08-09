@@ -14,7 +14,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/hiddify"
+        "github": "https://github.com/hiddify/hiddify-next"
     },
     "autoupdate": {
         "url": "https://github.com/hiddify/hiddify-next/releases/download/v$version/hiddify-windows-x64-portable.zip"

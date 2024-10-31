@@ -1,13 +1,13 @@
 {
-    "version": "1.41.101",
+    "version": "1.42.84",
     "description": "Next-generation IDE by JetBrains",
     "homepage": "https://www.jetbrains.com/fleet/",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.jetbrains.com/store/license.html"
     },
-    "url": "https://download.jetbrains.com/fleet/installers/windows_x64/Fleet-1.41.101.zip",
-    "hash": "c1d7c3435055e05654c1211fd6bbdde630c8f680753dd3cba158ba213ff21a41",
+    "url": "https://download.jetbrains.com/fleet/installers/windows_x64/Fleet-1.42.84.zip",
+    "hash": "a1285b6651ae7c2393a400217b15b993060346f5cc34373b1d35955c959492ac",
     "extract_to": "IDE",
     "architecture": {
         "64bit": {

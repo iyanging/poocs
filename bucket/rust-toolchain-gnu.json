@@ -1,5 +1,5 @@
 {
-    "version": "1.86.0",
+    "version": "1.87.0",
     "description": "A language empowering everyone to build reliable and efficient software. (GNU toolchain)",
     "homepage": "https://www.rust-lang.org",
     "license": "MIT|Apache-2.0",
@@ -7,25 +7,25 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://static.rust-lang.org/dist/rust-1.86.0-x86_64-pc-windows-gnu.msi",
-                "https://static.rust-lang.org/dist/rust-src-1.86.0.tar.gz",
-                "https://static.rust-lang.org/dist/rustfmt-1.86.0-x86_64-pc-windows-gnu.tar.gz",
-                "https://static.rust-lang.org/dist/clippy-1.86.0-x86_64-pc-windows-gnu.tar.gz",
-                "https://static.rust-lang.org/dist/rust-analyzer-1.86.0-x86_64-pc-windows-gnu.tar.gz"
+                "https://static.rust-lang.org/dist/rust-1.87.0-x86_64-pc-windows-gnu.msi",
+                "https://static.rust-lang.org/dist/rust-src-1.87.0.tar.gz",
+                "https://static.rust-lang.org/dist/rustfmt-1.87.0-x86_64-pc-windows-gnu.tar.gz",
+                "https://static.rust-lang.org/dist/clippy-1.87.0-x86_64-pc-windows-gnu.tar.gz",
+                "https://static.rust-lang.org/dist/rust-analyzer-1.87.0-x86_64-pc-windows-gnu.tar.gz"
             ],
             "hash": [
-                "abf0fb80812d6046e598d570e1d4c3fbf49320cd8d8e0b479ac86dea850dc513",
-                "468b7dc2cd2bffb584b119eed8f2531868436772a29bea0206fdd601a6f05985",
-                "8eaa951e19305b09b8e0d7de054cb9feb68aa550e14a8d77d09f86c9438f1003",
-                "9a0e435353d7375c8ece450ee475fe20cf6980eac3058042e11062d7eabb6220",
-                "10b18887ef6c1d2524575e0b312405625ceecee5e37706dbc55df1c335ad4dac"
+                "decf57ddfe2887304c423feaf62185450cf102f9c345a8751a5169d64239a1ab",
+                "f8cbdccb12bb3d11b738f26db4a67cfe3440944a58d155c32877c2d16b46d8a5",
+                "a7b0d8ca1d292746bac64b31d309b6447afa1179895efa53581d38fba9665db2",
+                "c3fab78ecbd49f78f21f1b6f3dc44394315820edf53bf42714e643c3da661574",
+                "4ab489cdf691e4930dd8727e26d4b3595f184bf333aa8ef97dc92efbee79f68a"
             ],
             "extract_dir": [
                 "Rust",
-                "rust-src-1.86.0\\rust-src",
-                "rustfmt-1.86.0-x86_64-pc-windows-gnu\\rustfmt-preview",
-                "clippy-1.86.0-x86_64-pc-windows-gnu\\clippy-preview",
-                "rust-analyzer-1.86.0-x86_64-pc-windows-gnu\\rust-analyzer-preview"
+                "rust-src-1.87.0\\rust-src",
+                "rustfmt-1.87.0-x86_64-pc-windows-gnu\\rustfmt-preview",
+                "clippy-1.87.0-x86_64-pc-windows-gnu\\clippy-preview",
+                "rust-analyzer-1.87.0-x86_64-pc-windows-gnu\\rust-analyzer-preview"
             ]
         }
     },

@@ -1,0 +1,36 @@
+{
+    "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
+    "version": "7.0.2-a319c0f",
+    "homepage": "https://ffmpeg.org",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/AnimMouse/ffmpeg-stable-autobuild/releases/download/2024-08-04-12-29-a319c0f-7.0.2/ffmpeg-7.0.2-a319c0f-win64-nonfree.7z",
+            "hash": "sha256:10f03a6218f5e4c7bb387ee73be2321b6ec51d15ec34326c0883c94b4d4e258d"
+        }
+    },
+    "bin": [
+        "ffmpeg.exe",
+        "ffplay.exe",
+        "ffprobe.exe"
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/AnimMouse/ffmpeg-stable-autobuild/releases",
+        "jsonpath": "$[0].tag_name",
+        "regex": "(?<date>[\\d-]{16})-(?<commit>[a-fA-F0-9]{7})-(?<ffmpeg>.+)",
+        "replace": "${3}-${2}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/AnimMouse/ffmpeg-stable-autobuild/releases/download/$matchDate-$matchCommit-$matchFfmpeg/ffmpeg-$matchFfmpeg-$matchCommit-win64-nonfree.7z"
+            }
+        },
+        "hash": {
+            "mode": "json",
+            "url": "https://api.github.com/repos/AnimMouse/ffmpeg-stable-autobuild/releases",
+            "jsonpath": "$..assets[?(@.name== '$basename')].digest",
+            "regex": "sha256:$sha256"
+        }
+    }
+}

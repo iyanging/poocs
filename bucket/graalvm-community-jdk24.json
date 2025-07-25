@@ -1,0 +1,33 @@
+{
+    "description": "GraalVM Community Edition for JDK 24",
+    "version": "24.0.2",
+    "homepage": "https://www.graalvm.org/community/",
+    "license": {
+        "identifier": "GPL-2.0-with-classpath-exception",
+        "url": "https://github.com/oracle/graal/blob/master/LICENSE"
+    },
+    "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.2/graalvm-community-jdk-24.0.2_windows-x64_bin.zip",
+    "hash": "c3467af0acfbc4003e30d116bdeeb881071ae4346ccab8886a0439f1eb527794",
+    "extract_to": "tmp",
+    "installer": {
+        "script": [
+            "(Get-ChildItem -Directory \"$dir\\tmp\").FullName | % { Move-Item \"$_\\*\" \"$dir\" }",
+            "Remove-Item -Recurse \"$dir\\tmp\""
+        ]
+    },
+    "env_add_path": "bin",
+    "env_set": {
+        "JAVA_HOME": "$dir",
+        "GRAALVM_HOME": "$dir"
+    },
+    "checkver": {
+        "url": "https://api.github.com/repos/graalvm/graalvm-ce-builds/releases",
+        "regex": "GraalVM for JDK 24 Community ((?<ver>[\\d]*)\\.[\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-$version/graalvm-community-jdk-$version_windows-x64_bin.zip",
+        "hash": {
+            "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-$version/graalvm-community-jdk-$version_windows-x64_bin.zip.sha256"
+        }
+    }
+}

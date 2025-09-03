@@ -1,12 +1,12 @@
 {
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
-    "version": "7.1.1-083f55b",
+    "version": "8.0-ae69ef0",
     "homepage": "https://ffmpeg.org",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AnimMouse/ffmpeg-stable-autobuild/releases/download/2025-06-13-05-17-083f55b-7.1.1/ffmpeg-7.1.1-083f55b-win64-nonfree.7z",
-            "hash": "10f03a6218f5e4c7bb387ee73be2321b6ec51d15ec34326c0883c94b4d4e258d"
+            "url": "https://github.com/AnimMouse/ffmpeg-stable-autobuild/releases/download/2025-09-03-16-39-ae69ef0-8.0/ffmpeg-8.0-ae69ef0-win64-nonfree.7z",
+            "hash": "7ad859c418b9dc0d954585092d3eb62a51921f63d44946ace1461039e22d7d14"
         }
     },
     "bin": [
